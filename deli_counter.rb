@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli.length > 1
+  if katz_deli.length >= 1
    message = "The line is currently:"
    katz_deli.each_with_index {|value, index| message << " #{index+1}. #{value}"}
    puts message
