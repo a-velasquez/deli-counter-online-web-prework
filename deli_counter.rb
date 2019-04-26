@@ -20,7 +20,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.size == 0 
     puts "There is nobody waiting to be served!"
-  else katz_deli.push
-    katz_deli
+  else katz_deli.size >= 1 
+    puts katz_deli
   end
 end
